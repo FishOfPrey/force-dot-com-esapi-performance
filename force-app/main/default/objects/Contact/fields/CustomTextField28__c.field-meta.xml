@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomTextField28__c</fullName>
+    <description>CustomTextField28</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CustomTextField28</inlineHelpText>
+    <label>CustomTextField28</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
