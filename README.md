@@ -9,6 +9,7 @@ For testing the performance of DML operations in the Salesforce ESAPI
 `sfdx force:mdapi:deploy -d src -u esapiBaseline -w 2`
 
 -- Install the unmanaged package from https://github.com/apexlarson/LimitsProfiler  
+-- packaging/installPackage.apexp?p0=04t41000002RXGo  
 `sfdx force:package:install --package 04t41000002RXGo -u esapiBaseline -w 2 --publishwait 10`
 
 `sfdx force:org:open -u esapiBaseline -p /apex/limitsprofiler`
